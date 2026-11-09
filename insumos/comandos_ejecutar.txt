@@ -1,0 +1,66 @@
+paso 1 busca las extensiones
+
+
+Get-ChildItem -Path "$env:USERPROFILE\.vscode\extensions" -Recurse -Filter "powerbi-modeling-mcp.exe" | Select-Object FullName
+
+##PS C:\Users\Dell> Get-ChildItem -Path "$env:USERPROFILE\.vscode\extensions" -Filter "*powerbi*" | Select-Object FullName
+
+##FullName
+--------
+##C:\Users\Dell\.vscode\extensions\analysis-services.powerbi-modeling-mcp-1.0.1-win32-x64
+
+paso 2 obtener directorio de extension
+
+##"C:\Users\Dell\.vscode\extensions\analysis-services.powerbi-modeling-mcp-1.0.1-win32-x64\server\powerbi-modeling-mcp.exe"
+Directorio ejemplo (nombre de usuario en tu caso va ser distinto)
+
+
+"C:\Users\bluesfer\.vscode\extensions\analysis-services.powerbi-modeling-mcp-0.4.0-win32-x64\server\powerbi-modeling-mcp.exe"
+
+ Otro ejemplo otro equipo
+"C:\Users\fpullutasig\.vscode\extensions\analysis-services.powerbi-modeling-mcp-0.4.0-win32-x64\server\powerbi-modeling-mcp.exe"
+
+
+paso 3 obtener el cponfig json
+
+
+
+{
+  "mcpServers": {
+    "powerbi-modeling-mcp": {
+      "command": "C:\\Users\\bluesfer\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-0.4.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
+      "args": [
+        "--start"
+      ],
+      "env": {}
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+paso configuracion completa de mcp
+
+{
+  "mcpServers": {
+    "powerbi-modeling-mcp": {
+      "command": "C:\\Users\\bluesfer\\.vscode\\extensions\\analysis-services.powerbi-modeling-mcp-0.4.0-win32-x64\\server\\powerbi-modeling-mcp.exe",
+      "args": [
+        "--start"
+      ],
+      "env": {}
+    }
+  },
+  "preferences": {
+    "coworkWebSearchEnabled": true,
+    "coworkScheduledTasksEnabled": false,
+    "ccdScheduledTasksEnabled": false
+  }
+}

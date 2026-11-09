@@ -1,0 +1,46 @@
+Tu enfoque actual es sólido, moderno y altamente eficiente para llevar el patrón de ingesta por particiones de Apache Hive a una arquitectura relacional en SQL Server.   
+image_d8f3ff.png
+
+Lo que estás haciendo muy bien (Fortalezas del diseño)
+Reemplazo ultra rápido estilo Hive: Replicar el comportamiento de INSERT OVERWRITE mediante TRUNCATE TABLE WITH (PARTITIONS) es la mejor práctica en SQL Server. Evita el llenado masivo del Log de Transacciones y no genera bloqueos prolongados ni fragmentación como lo haría un DELETE tradicional.   
+image_d8f3ff.png
++ 1
+
+Garantía de Idempotencia: Al usar una tabla de Staging intermedia y aplicar deduplicación atómica (ROW_NUMBER() / DISTINCT) antes de insertar en la tabla principal,
+garantizas que si el pipeline se ejecuta múltiples veces seguidas con el mismo archivo, el resultado final siempre será consistente y sin fallos de Clave Primaria.   
+image_d8f3ff.png
+
+Rendimiento de ingesta: La combinación del parámetro fast_executemany en Python con sentencias masivas en T-SQL aprovecha al máximo la velocidad nativa de los 
+drivers ODBC de SQL Server.   
+image_d8f3ff.png
+###################################################################################################################################
+###################################################################################################################################
+
+Recomendaciones para llevar este ETL a producción empresarial
+Recomendaciones para llevar este ETL a producción empresarial
+###################################################################################################################################
+###################################################################################################################################
+
+---Implementar una tabla de Auditoría y Control (ETL_Log):---
+Es fundamental registrar la trazabilidad de cada ingesta. Te recomiendo crear una tabla de log donde guardes el nombre del archivo procesado, la fecha de partición, cantidad de registros leídos vs. insertados, fecha/hora de ejecución y estado (Éxito/Error). Esto te dará visibilidad completa para monitorear si un día faltó algún reporte.
+
+Gestión y movimiento físico de archivos procesados:
+
+Actualmente el script lee el archivo directamente de la carpeta de entrada. Conviene incluir una rutina al final del script de Python que mueva el archivo procesado a una subcarpeta /procesados/YYYY-MM/ (o a /errores/ en caso de fallo). Esto previene que el script vuelva a leer el mismo archivo por accidente en ejecuciones futuras.
+
+Validación estricta de tipos de datos en Pandas:
+
+Los archivos de Excel en entornos financieros suelen traer inconsistencias (como la leyenda "No aplica", celdas vacías o formatos mixtos en columnas de montos o fechas). Aplicar pd.to_numeric(..., errors='coerce') y limpieza de cadenas en Pandas antes de enviar los datos a SQL Server evitará errores silenciosos o de conversión en el driver ODBC.   
+image_d8f3ff.png
+
+Alineación del Índice Clustered con el campo de partición:
+
+Asegúrate de que el índice principal PK_FactCreditos tenga como primer campo la columna de partición FechaReporte (ejemplo: CLUSTERED (FechaReporte, NumeroCredito)). Esto garantiza que las búsquedas analíticas por rango de fechas utilicen Partition Elimination al 100%, leyendo solo el segmento de disco correspondiente.   
+image_d8f3ff.png
+
+Mantenimiento a largo plazo de particiones (Consolidación):
+
+Generar particiones diarias creará unas 365 particiones por año. Aunque SQL Server soporta hasta 15,000 particiones, es aconsejable programar una rutina anual que ejecute MERGE RANGE sobre años pasados para consolidar particiones diarias viejas en rangos mensuales o anuales, manteniendo ligera la metadata del motor de base de datos.   
+image_d8f3ff.png
+
+¿Te gustaría que agreguemos la tabla de auditoría ETL_Log y la función de movimiento automático de archivos procesados a tu script de Python para dejar el flujo 100% listo para producción?

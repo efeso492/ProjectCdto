@@ -1,0 +1,35 @@
+2026-11-06 16:20:56,267 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:24:31,608 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:25:06,969 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:25:40,967 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:25:40,967 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:26:19,717 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:26:19,722 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:28:59,064 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:28:59,064 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:29:13,928 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:29:13,928 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:31:43,271 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:31:43,271 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:31:43,271 [MainThread  ] [INFO ]  --> Iniciando coneccion regular con IMPALA 
+2026-11-06 16:31:43,281 [MainThread  ] [INFO ]  --> Estableciendo cursor
+2026-11-06 16:31:43,338 [MainThread  ] [INFO ]  Registros procesados: 0
+2026-11-06 16:31:43,339 [MainThread  ] [INFO ]  Registros validos: 0
+2026-11-06 16:32:56,249 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:32:56,249 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:32:56,249 [MainThread  ] [INFO ]  --> Iniciando coneccion regular con IMPALA 
+2026-11-06 16:32:56,249 [MainThread  ] [INFO ]  --> Estableciendo cursor
+2026-11-06 16:32:56,260 [MainThread  ] [INFO ]  Registros procesados: 0
+2026-11-06 16:32:56,266 [MainThread  ] [INFO ]  Registros validos: 0
+2026-11-06 16:34:04,801 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:34:04,806 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:34:04,807 [MainThread  ] [INFO ]  --> Iniciando coneccion regular con IMPALA 
+2026-11-06 16:34:04,807 [MainThread  ] [INFO ]  --> Estableciendo cursor
+2026-11-06 16:34:04,816 [MainThread  ] [INFO ]  Registros procesados: 0
+2026-11-06 16:34:04,817 [MainThread  ] [INFO ]  Registros validos: 0
+2026-11-06 16:36:50,550 [MainThread  ] [INFO ]  Conexion True
+2026-11-06 16:36:50,550 [MainThread  ] [INFO ]  Consulta realizada con exito
+2026-11-06 16:36:50,555 [MainThread  ] [INFO ]  --> Iniciando coneccion regular con IMPALA 
+2026-11-06 16:36:50,560 [MainThread  ] [INFO ]  --> Estableciendo cursor
+2026-11-06 16:36:50,576 [MainThread  ] [INFO ]  Registros procesados: 0
+2026-11-06 16:36:50,576 [MainThread  ] [INFO ]  Registros validos: 0
