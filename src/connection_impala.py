@@ -6,7 +6,7 @@ import pandas as pd
 #from pyhive import hive
 #from sqlalchemy import create_engine
 #import sqlalchemy as sa
-import bd_connection as bd
+#import bd_connection as bd
 #from impala.dbapi import connect
 #from impala.util import as_pandas
 #

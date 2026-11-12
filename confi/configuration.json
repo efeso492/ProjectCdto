@@ -1,0 +1,12 @@
+{
+
+"archivos":{"catera_credto":"BDA_CREDDITO",
+            "modelo_excel":"MODELO_CLUSTER",
+            "modelo_powerbi":"tablero"},
+"ext":".txt",
+"ext_pbix":".pbix",
+"folder":["confi","logs","outputs","powerBI","sql","src","bk_temps"],            
+"lis_sql":["exec_procedimiento.sql","qry_partition_next.sql","qry_partition.sql","qry_partitions_mount_actual.sql","qry_partitions_mount_actual.sql","select_cdto_liq.sql","select_particion.sql","sem_partition.sql"]            
+
+
+}
