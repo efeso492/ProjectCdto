@@ -1,1 +1,203 @@
 2026-11-11 23:22:03,265 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:23:25,681 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:32:56,138 [MainThread  ] [INFO    ] app: confi: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\confi\confi'
+2026-11-12 09:32:56,139 [MainThread  ] [INFO    ] app: logs: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\confi\logs'
+2026-11-12 09:32:56,139 [MainThread  ] [INFO    ] app: outputs: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\confi\outputs'
+2026-11-12 09:32:56,140 [MainThread  ] [INFO    ] app: powerBI: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\confi\powerBI'
+2026-11-12 09:32:56,140 [MainThread  ] [INFO    ] app: sql: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\confi\sql'
+2026-11-12 09:32:56,141 [MainThread  ] [INFO    ] app: src: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\confi\src'
+2026-11-12 09:32:56,141 [MainThread  ] [INFO    ] app: bk_temps: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\confi\bk_temps'
+2026-11-12 09:32:56,142 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:33:52,159 [MainThread  ] [INFO    ] app: bk_temps: ruta no encontrada, creando 'C:\Users\Adiestramiento.MXL3061XXX\Documents\ProjeCdto\bk_temps'
+2026-11-12 09:33:52,159 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:36:30,766 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:36:30,766 [MainThread  ] [INFO    ] app: folder: archivos Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: ext Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: ext_pbix Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: folder Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: lis_sql Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:36:30,767 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:36:30,768 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:36:30,768 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:36:30,768 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:36:59,281 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:36:59,282 [MainThread  ] [INFO    ] app: folder: archivos Exist..
+2026-11-12 09:36:59,282 [MainThread  ] [INFO    ] app: folder: ext Exist..
+2026-11-12 09:36:59,282 [MainThread  ] [INFO    ] app: folder: ext_pbix Exist..
+2026-11-12 09:36:59,282 [MainThread  ] [INFO    ] app: folder: folder Exist..
+2026-11-12 09:36:59,282 [MainThread  ] [INFO    ] app: folder: lis_sql Exist..
+2026-11-12 09:36:59,282 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:36:59,283 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:36:59,283 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:36:59,283 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:36:59,283 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:36:59,283 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:36:59,283 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:47:59,360 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:47:59,360 [MainThread  ] [INFO    ] app: folder: archivos Exist..
+2026-11-12 09:47:59,360 [MainThread  ] [INFO    ] app: folder: ext Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: ext_pbix Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: folder Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: lis_sql Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:47:59,361 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:49:43,861 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:49:43,861 [MainThread  ] [INFO    ] app: folder: archivos Exist..
+2026-11-12 09:49:43,861 [MainThread  ] [INFO    ] app: folder: ext Exist..
+2026-11-12 09:49:43,861 [MainThread  ] [INFO    ] app: folder: ext_pbix Exist..
+2026-11-12 09:49:43,861 [MainThread  ] [INFO    ] app: folder: folder Exist..
+2026-11-12 09:49:43,861 [MainThread  ] [INFO    ] app: folder: lis_sql Exist..
+2026-11-12 09:49:43,861 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:49:43,862 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:49:43,862 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:49:43,862 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:49:43,862 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:49:43,862 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:49:43,862 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:51:41,293 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:51:41,293 [MainThread  ] [INFO    ] app: folder: archivos Exist..
+2026-11-12 09:51:41,293 [MainThread  ] [INFO    ] app: folder: ext Exist..
+2026-11-12 09:51:41,293 [MainThread  ] [INFO    ] app: folder: ext_pbix Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: folder Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: lis_sql Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:51:41,294 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:53:49,771 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:53:49,771 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:53:49,771 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:53:49,772 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:53:49,772 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:53:49,772 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:53:49,772 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:53:49,772 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:54:34,291 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:54:51,727 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:54:51,728 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:54:51,728 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:54:51,729 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:54:51,729 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:54:51,729 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:54:51,729 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:54:51,730 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:55:08,910 [MainThread  ] [INFO    ] app: folder: confi Exist..
+2026-11-12 09:55:08,910 [MainThread  ] [INFO    ] app: folder: logs Exist..
+2026-11-12 09:55:08,911 [MainThread  ] [INFO    ] app: folder: outputs Exist..
+2026-11-12 09:55:08,911 [MainThread  ] [INFO    ] app: folder: powerBI Exist..
+2026-11-12 09:55:08,911 [MainThread  ] [INFO    ] app: folder: sql Exist..
+2026-11-12 09:55:08,911 [MainThread  ] [INFO    ] app: folder: src Exist..
+2026-11-12 09:55:08,912 [MainThread  ] [INFO    ] app: folder: bk_temps Exist..
+2026-11-12 09:55:08,912 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:55:24,897 [MainThread  ] [INFO    ] app: folder: confi exist..
+2026-11-12 09:55:24,897 [MainThread  ] [INFO    ] app: folder: logs exist..
+2026-11-12 09:55:24,897 [MainThread  ] [INFO    ] app: folder: outputs exist..
+2026-11-12 09:55:24,898 [MainThread  ] [INFO    ] app: folder: powerBI exist..
+2026-11-12 09:55:24,898 [MainThread  ] [INFO    ] app: folder: sql exist..
+2026-11-12 09:55:24,898 [MainThread  ] [INFO    ] app: folder: src exist..
+2026-11-12 09:55:24,898 [MainThread  ] [INFO    ] app: folder: bk_temps exist..
+2026-11-12 09:55:24,898 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 09:55:39,998 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 09:55:39,998 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 09:55:39,998 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 09:55:39,999 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 09:55:39,999 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 09:55:39,999 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 09:55:39,999 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 09:55:39,999 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 10:00:47,235 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 10:00:47,236 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 10:00:47,236 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 10:00:47,236 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 10:00:47,236 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 10:00:47,236 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 10:00:47,237 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 10:02:07,940 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 10:02:07,941 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 10:02:07,941 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 10:02:07,941 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 10:02:07,942 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 10:02:07,942 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 10:02:07,942 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 10:03:09,217 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 10:03:09,217 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 10:03:09,217 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 10:03:09,218 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 10:03:09,218 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 10:03:09,218 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 10:03:09,218 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 10:03:09,218 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 10:03:31,770 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 10:03:31,770 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 10:03:31,770 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 10:03:31,771 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 10:03:31,771 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 10:03:31,771 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 10:03:31,771 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 10:03:31,772 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 10:06:57,031 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 10:06:57,032 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 10:06:57,032 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 10:06:57,032 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 10:06:57,033 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 10:06:57,033 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 10:06:57,033 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 10:07:16,042 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 10:07:16,043 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 10:07:16,043 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 10:07:16,043 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 10:07:16,043 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 10:07:16,043 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 10:07:16,044 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 10:07:16,044 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 11:36:10,628 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 11:36:10,628 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 11:36:10,628 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 11:36:10,628 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 11:36:10,628 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 11:36:10,629 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 11:36:10,629 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 11:36:10,633 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 11:37:24,997 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 11:37:24,997 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 11:37:24,997 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 11:37:24,998 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 11:37:24,998 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 11:37:24,998 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 11:37:24,998 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 11:37:24,999 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 11:37:49,491 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 11:37:49,492 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 11:37:49,492 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 11:37:49,492 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 11:37:49,493 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 11:37:49,493 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 11:37:49,493 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 11:37:49,494 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 11:39:01,286 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 11:39:01,286 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 11:39:01,286 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 11:39:01,286 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 11:39:01,287 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 11:39:01,287 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 11:39:01,287 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 11:39:01,288 [MainThread  ] [INFO    ] app: dicc_main
+2026-11-12 11:40:49,177 [MainThread  ] [INFO    ] app: folder: confi . Exist..
+2026-11-12 11:40:49,178 [MainThread  ] [INFO    ] app: folder: logs . Exist..
+2026-11-12 11:40:49,178 [MainThread  ] [INFO    ] app: folder: outputs . Exist..
+2026-11-12 11:40:49,178 [MainThread  ] [INFO    ] app: folder: powerBI . Exist..
+2026-11-12 11:40:49,178 [MainThread  ] [INFO    ] app: folder: sql . Exist..
+2026-11-12 11:40:49,179 [MainThread  ] [INFO    ] app: folder: src . Exist..
+2026-11-12 11:40:49,179 [MainThread  ] [INFO    ] app: folder: bk_temps . Exist..
+2026-11-12 11:40:49,180 [MainThread  ] [INFO    ] app: dicc_main

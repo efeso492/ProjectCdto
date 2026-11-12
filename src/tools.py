@@ -61,3 +61,24 @@ def open_query(query_file: str | Path, encoding: str = "utf-8") -> str:
         raise SQLFileError(f"El archivo SQL está vacío: '{path}'")
 
     return query
+
+
+def openQuery(query_file): 
+    logs = configurar_logger()
+    try:
+        with open(query_file, "r") as f:
+            query = f.read() 
+            f.close()             
+            if query  : 
+                return query 
+            else:  
+                print("...") 
+                logs.error(f"==> SQL file  '{query_file}' it's empty.") 
+                logs.error("==> Process aborted...")
+                exit(1)
+            #
+        #                
+    except Exception as e: 
+        logs.error(f"==> Error in SQL file: '{query_file}', descrp:  {str(e)}.")
+        logs.error("==> Process aborted...")
+        exit(1)
